@@ -1,0 +1,26 @@
+
+| **Component**             | **Arduino Pin**                        | **Other Connections**                      |
+|---------------------------|----------------------------------------|--------------------------------------------|
+| **Power Supply**          | 5V → Arduino **5V Pin**                 | 12V → Fan Positive Terminal               |
+|                           | GND → Arduino **GND Pin**               | GND → Common Ground for all components    |
+  
+| **LM35 Temperature Sensor**| VCC → **5V**                           | -                                          |
+|                           | GND → **GND**                           | -                                          |
+|                           | OUT → **A0 (Analog Pin 0)**             | -                                          |
+  
+| **16x2 LCD Display**      | RS → **D7 (Digital Pin 7)**             | VSS, RW → **GND**                          |
+|                           | E → **D8 (Digital Pin 8)**              | VDD → **5V**                               |
+|                           | D4 → **D9 (Digital Pin 9)**             | -                                          |
+|                           | D5 → **D10 (Digital Pin 10)**           | -                                          |
+|                           | D6 → **D11 (Digital Pin 11)**           | -                                          |
+|                           | D7 → **D12 (Digital Pin 12)**           | -                                          |
+  
+| **12V Fan**               | Negative → **Collector of 2N2222**      | Positive → **12V Power Supply**            |
+  
+| **2N2222 Transistor**     | Base → **D6 (Digital Pin 6)** (through 1K resistor) | Emitter → **GND**              |
+|                           | Collector → **Fan Negative Terminal**    | -                                         |
+  
+| **1N4007 Diode**          | Cathode (|) → **Fan Positive Terminal**  | Anode → **Collector of 2N2222**           |
+  
+| **LED Indicator**         | Anode → **D5 (Digital Pin 5)** (through 1K resistor) | Cathode → **GND**             |
+
