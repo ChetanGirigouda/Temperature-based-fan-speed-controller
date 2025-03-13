@@ -58,7 +58,8 @@ Ensure you have the following software installed:
 
 ## Project Demo
 
-Add images or videos here showcasing your working project.
+![Picture 1](https://github.com/user-attachments/assets/1d369393-7d81-4b4d-811b-3b9db3f18803)
+
 
 ## License
 
