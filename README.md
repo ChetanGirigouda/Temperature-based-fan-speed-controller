@@ -50,7 +50,7 @@ Ensure you have the following software installed:
 
 3. Upload the code to your Arduino Uno.
 
-## 📋 Usage
+## Usage
 
 - Power the system using the 12V and 5V supplies.
 - Monitor temperature on the LCD.
