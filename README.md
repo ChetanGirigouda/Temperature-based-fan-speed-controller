@@ -42,7 +42,8 @@ Ensure you have the following software installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/temperature-fan-control.git
+   git clone [https://github.com/yourusername/temperature-fan-control.git
+   (https://github.com/ChetanGirigouda/Temperature-based-fan-speed-controller)
    cd temperature-fan-control
    ```
 
