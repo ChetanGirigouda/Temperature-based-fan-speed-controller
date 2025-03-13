@@ -1,0 +1,12 @@
+ # Hardware Components
+- Arduino Uno
+- 16*2 LCD Display
+- LM35 Temperature senser
+- Power Supply
+- 12 V fan
+-LED
+-1K resistor
+- 2N2222 Transistor
+- 1N4007 Diode
+  # Software Components
+- Arduino Uno Firmware
